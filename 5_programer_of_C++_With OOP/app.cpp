@@ -1,8 +1,8 @@
-/*
+
 #include <iostream>
 #include <algorithm>
 using namespace std;
-                        //     2       1           10
+
 bool binarySearch(int A[], int low, int high, int searchKey)
 {
     // A[] = { 1, 4, 45, 6, 10, -8 };
@@ -31,9 +31,6 @@ bool binarySearch(int A[], int low, int high, int searchKey)
 bool checkTwoSum(int A[], int arr_size, int sum)
 {
 
-    /* Sort the elements 
-    //sort(A, A + arr_size);
-
     // Traversing all element in an array search for
     // searchKey
     for (int i = 0; i < arr_size - 1; i++) { // i = 0 , 1
@@ -48,7 +45,7 @@ bool checkTwoSum(int A[], int arr_size, int sum)
     return false;
 }
 
-/* Driver program to test above function 
+// Driver program to test above function
 int main()
 {
     int A[] = { 1, 4, 45, 6, 10, -8 };
@@ -63,7 +60,7 @@ int main()
 
     return 0;
 }
-*/
+
 
 
 
@@ -75,7 +72,7 @@ int main()
 
 
 // programm number 5 to C++ ------------------------------------
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -139,7 +136,7 @@ int main(){
         ba.set_Data("1234" , 1000);
         cout << ba.get_money(1000) << endl;
 }
-*/
+
 
 
 
@@ -148,7 +145,7 @@ int main(){
 
 
 // programm number 4 to C++ ------------------------------------
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -205,14 +202,13 @@ Car c;
     cout << " year Is :=> " << c.get_year()<< endl;
 
 }
-*/
+
 
 
 
 
 
 // programm number 3 to C++ ------------------------------------
-/*
 #include <iostream>
 using namespace std;
 
@@ -268,7 +264,7 @@ Person p;
     cout << "Your contry Is :=> " << p.get_contry() << endl;
 
 }
-*/
+
 
 
 
@@ -276,7 +272,7 @@ Person p;
 
 
 // programm number 2 to C++ ------------------------------------
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -308,13 +304,13 @@ Rectangle r(7 ,3);
 cout << " rectangle_area is : "  << r.get_rectangle_area() << endl;
 cout << " perimeter_of_the_rectangle is : " << r.get_perimeter_of_the_rectangle() << endl;
 }
-*/
+
 
 
 
 
 // programm number 1 to C++ ------------------------------------
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -349,4 +345,4 @@ Circle c(6);
 cout <<" circle_aria is : "<< c.get_circle_aria()<< endl;
 cout << " surroundings_ofa_cicle is : " << c.get_surroundings_ofa_cicle()<< endl;
 }
-*/
+
